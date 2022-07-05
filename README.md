@@ -23,7 +23,7 @@ RegisterNumber: 212220040068
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('/content/Spam.csv',encoding='latin-1')
+data = pd.read_csv('Spam.csv',encoding='latin-1')
 df = data.drop(['Unnamed: 2','Unnamed: 3','Unnamed: 4'],axis=1)
 
 df.head()
